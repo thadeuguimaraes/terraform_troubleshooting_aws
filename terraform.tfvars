@@ -1,2 +1,2 @@
-name = "terraform"
-region = "us-east-2"
+name   = "terraform"
+region = "us-east-1"

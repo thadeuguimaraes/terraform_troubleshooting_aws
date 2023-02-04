@@ -96,4 +96,3 @@ resource "aws_security_group_rule" "allow_localhost_ping" {
   cidr_blocks = ["${chomp(data.http.myip.body)}/32"]
   security_group_id = aws_security_group.sg_ping.id
 }
-
